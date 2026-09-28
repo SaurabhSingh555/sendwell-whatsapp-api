@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # sendwell. — WhatsApp API Console
 
 A minimal single-session console for linking WhatsApp via QR, viewing a saved API key, and sending files to WhatsApp groups with one multipart request. This project runs on **Next.js (React + Node.js API routes)**. Supabase stores the API key and supports the existing optional file-upload endpoint; **sending a file does not use Supabase Storage**. No local PostgreSQL or Drizzle migration is required.
@@ -100,3 +101,6 @@ Use a publicly reachable **HTTPS** address for Google Apps Script (not `localhos
 - **QR appears after restart** — keep `.wa-auth/` or `WA_AUTH_DIR` on persistent storage and avoid multiple concurrent processes.
 
 Baileys is an unofficial WhatsApp Web client; WhatsApp protocol changes or terms may affect it.
+=======
+# sendwell-whatsapp-api
+>>>>>>> 428c32f79952881c83193be2f0be42f4316aa286
